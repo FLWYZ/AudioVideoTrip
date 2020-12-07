@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880910D325668F3E006820CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880910D225668F3E006820CE /* AppDelegate.swift */; };
+		880910D525668F3E006820CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880910D425668F3E006820CE /* ViewController.swift */; };
+		880910D725668F3F006820CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880910D625668F3F006820CE /* Assets.xcassets */; };
+		880910DA25668F3F006820CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880910D825668F3F006820CE /* Main.storyboard */; };
+		880910E625668F40006820CE /* AudioVideoTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880910E525668F40006820CE /* AudioVideoTripTests.swift */; };
+		880910F125668F40006820CE /* AudioVideoTripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880910F025668F40006820CE /* AudioVideoTripUITests.swift */; };
+		8809110425669187006820CE /* Test.c in Sources */ = {isa = PBXBuildFile; fileRef = 8809110325669187006820CE /* Test.c */; };
+		885631B52566AD410087C67C /* libavfilter.7.88.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 885631AF2566AD410087C67C /* libavfilter.7.88.100.dylib */; };
+		885631B62566AD410087C67C /* libavfilter.7.88.100.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 885631AF2566AD410087C67C /* libavfilter.7.88.100.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		885631B72566AD410087C67C /* libavformat.58.64.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 885631B02566AD410087C67C /* libavformat.58.64.100.dylib */; };
+		885631B82566AD410087C67C /* libavformat.58.64.100.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 885631B02566AD410087C67C /* libavformat.58.64.100.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		885631B92566AD410087C67C /* libavcodec.58.112.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 885631B12566AD410087C67C /* libavcodec.58.112.100.dylib */; };
+		885631BA2566AD410087C67C /* libavcodec.58.112.100.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 885631B12566AD410087C67C /* libavcodec.58.112.100.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		885631BB2566AD410087C67C /* libswresample.3.8.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 885631B22566AD410087C67C /* libswresample.3.8.100.dylib */; };
+		885631BC2566AD410087C67C /* libswresample.3.8.100.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 885631B22566AD410087C67C /* libswresample.3.8.100.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		885631BD2566AD410087C67C /* libavutil.56.60.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 885631B32566AD410087C67C /* libavutil.56.60.100.dylib */; };
+		885631BE2566AD410087C67C /* libavutil.56.60.100.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 885631B32566AD410087C67C /* libavutil.56.60.100.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		885631BF2566AD410087C67C /* libswscale.5.8.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 885631B42566AD410087C67C /* libswscale.5.8.100.dylib */; };
+		885631C02566AD410087C67C /* libswscale.5.8.100.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 885631B42566AD410087C67C /* libswscale.5.8.100.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8856324E2567664D0087C67C /* libavdevice.58.11.102.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8856324D2567664D0087C67C /* libavdevice.58.11.102.dylib */; };
+		8856324F2567664D0087C67C /* libavdevice.58.11.102.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8856324D2567664D0087C67C /* libavdevice.58.11.102.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		886A78A1256E86DD00F311B9 /* AudioRecord.c in Sources */ = {isa = PBXBuildFile; fileRef = 886A78A0256E86DD00F311B9 /* AudioRecord.c */; };
+		88D52D7E2575164B005DAFA0 /* Utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 88D52D7D2575164B005DAFA0 /* Utility.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880910E225668F40006820CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880910C725668F3E006820CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880910CE25668F3E006820CE;
+			remoteInfo = AudioVideoTrip;
+		};
+		880910ED25668F40006820CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880910C725668F3E006820CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880910CE25668F3E006820CE;
+			remoteInfo = AudioVideoTrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		885631C12566AD410087C67C /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				885631BA2566AD410087C67C /* libavcodec.58.112.100.dylib in Embed Libraries */,
+				885631BC2566AD410087C67C /* libswresample.3.8.100.dylib in Embed Libraries */,
+				885631BE2566AD410087C67C /* libavutil.56.60.100.dylib in Embed Libraries */,
+				885631C02566AD410087C67C /* libswscale.5.8.100.dylib in Embed Libraries */,
+				885631B82566AD410087C67C /* libavformat.58.64.100.dylib in Embed Libraries */,
+				8856324F2567664D0087C67C /* libavdevice.58.11.102.dylib in Embed Libraries */,
+				885631B62566AD410087C67C /* libavfilter.7.88.100.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		880910CF25668F3E006820CE /* AudioVideoTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioVideoTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880910D225668F3E006820CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		880910D425668F3E006820CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		880910D625668F3F006820CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880910D925668F3F006820CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880910DB25668F3F006820CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880910DC25668F3F006820CE /* AudioVideoTrip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioVideoTrip.entitlements; sourceTree = "<group>"; };
+		880910E125668F40006820CE /* AudioVideoTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioVideoTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880910E525668F40006820CE /* AudioVideoTripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVideoTripTests.swift; sourceTree = "<group>"; };
+		880910E725668F40006820CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880910EC25668F40006820CE /* AudioVideoTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioVideoTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880910F025668F40006820CE /* AudioVideoTripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVideoTripUITests.swift; sourceTree = "<group>"; };
+		880910F225668F40006820CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8809110125669187006820CE /* AudioVideoTrip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioVideoTrip-Bridging-Header.h"; sourceTree = "<group>"; };
+		8809110225669187006820CE /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		8809110325669187006820CE /* Test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test.c; sourceTree = "<group>"; };
+		885631AF2566AD410087C67C /* libavfilter.7.88.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavfilter.7.88.100.dylib; path = AudioVideoTrip/lib/libavfilter.7.88.100.dylib; sourceTree = "<group>"; };
+		885631B02566AD410087C67C /* libavformat.58.64.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.58.64.100.dylib; path = AudioVideoTrip/lib/libavformat.58.64.100.dylib; sourceTree = "<group>"; };
+		885631B12566AD410087C67C /* libavcodec.58.112.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.58.112.100.dylib; path = AudioVideoTrip/lib/libavcodec.58.112.100.dylib; sourceTree = "<group>"; };
+		885631B22566AD410087C67C /* libswresample.3.8.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.3.8.100.dylib; path = AudioVideoTrip/lib/libswresample.3.8.100.dylib; sourceTree = "<group>"; };
+		885631B32566AD410087C67C /* libavutil.56.60.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.56.60.100.dylib; path = AudioVideoTrip/lib/libavutil.56.60.100.dylib; sourceTree = "<group>"; };
+		885631B42566AD410087C67C /* libswscale.5.8.100.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.5.8.100.dylib; path = AudioVideoTrip/lib/libswscale.5.8.100.dylib; sourceTree = "<group>"; };
+		8856324D2567664D0087C67C /* libavdevice.58.11.102.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.58.11.102.dylib; path = AudioVideoTrip/lib/libavdevice.58.11.102.dylib; sourceTree = "<group>"; };
+		886A789F256E86DD00F311B9 /* AudioRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioRecord.h; sourceTree = "<group>"; };
+		886A78A0256E86DD00F311B9 /* AudioRecord.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AudioRecord.c; sourceTree = "<group>"; };
+		88D52D7C2575164B005DAFA0 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		88D52D7D2575164B005DAFA0 /* Utility.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Utility.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880910CC25668F3E006820CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885631B92566AD410087C67C /* libavcodec.58.112.100.dylib in Frameworks */,
+				885631BB2566AD410087C67C /* libswresample.3.8.100.dylib in Frameworks */,
+				885631BD2566AD410087C67C /* libavutil.56.60.100.dylib in Frameworks */,
+				885631BF2566AD410087C67C /* libswscale.5.8.100.dylib in Frameworks */,
+				885631B72566AD410087C67C /* libavformat.58.64.100.dylib in Frameworks */,
+				8856324E2567664D0087C67C /* libavdevice.58.11.102.dylib in Frameworks */,
+				885631B52566AD410087C67C /* libavfilter.7.88.100.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880910DE25668F40006820CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880910E925668F40006820CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		880910C625668F3E006820CE = {
+			isa = PBXGroup;
+			children = (
+				880910D125668F3E006820CE /* AudioVideoTrip */,
+				880910E425668F40006820CE /* AudioVideoTripTests */,
+				880910EF25668F40006820CE /* AudioVideoTripUITests */,
+				880910D025668F3E006820CE /* Products */,
+				885631AE2566AD410087C67C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		880910D025668F3E006820CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880910CF25668F3E006820CE /* AudioVideoTrip.app */,
+				880910E125668F40006820CE /* AudioVideoTripTests.xctest */,
+				880910EC25668F40006820CE /* AudioVideoTripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880910D125668F3E006820CE /* AudioVideoTrip */ = {
+			isa = PBXGroup;
+			children = (
+				880910D225668F3E006820CE /* AppDelegate.swift */,
+				880910D425668F3E006820CE /* ViewController.swift */,
+				8809110225669187006820CE /* Test.h */,
+				8809110325669187006820CE /* Test.c */,
+				886A789F256E86DD00F311B9 /* AudioRecord.h */,
+				886A78A0256E86DD00F311B9 /* AudioRecord.c */,
+				88D52D7C2575164B005DAFA0 /* Utility.h */,
+				88D52D7D2575164B005DAFA0 /* Utility.c */,
+				880910D625668F3F006820CE /* Assets.xcassets */,
+				880910D825668F3F006820CE /* Main.storyboard */,
+				880910DB25668F3F006820CE /* Info.plist */,
+				880910DC25668F3F006820CE /* AudioVideoTrip.entitlements */,
+				8809110125669187006820CE /* AudioVideoTrip-Bridging-Header.h */,
+			);
+			path = AudioVideoTrip;
+			sourceTree = "<group>";
+		};
+		880910E425668F40006820CE /* AudioVideoTripTests */ = {
+			isa = PBXGroup;
+			children = (
+				880910E525668F40006820CE /* AudioVideoTripTests.swift */,
+				880910E725668F40006820CE /* Info.plist */,
+			);
+			path = AudioVideoTripTests;
+			sourceTree = "<group>";
+		};
+		880910EF25668F40006820CE /* AudioVideoTripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				880910F025668F40006820CE /* AudioVideoTripUITests.swift */,
+				880910F225668F40006820CE /* Info.plist */,
+			);
+			path = AudioVideoTripUITests;
+			sourceTree = "<group>";
+		};
+		885631AE2566AD410087C67C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8856324D2567664D0087C67C /* libavdevice.58.11.102.dylib */,
+				885631B12566AD410087C67C /* libavcodec.58.112.100.dylib */,
+				885631AF2566AD410087C67C /* libavfilter.7.88.100.dylib */,
+				885631B02566AD410087C67C /* libavformat.58.64.100.dylib */,
+				885631B32566AD410087C67C /* libavutil.56.60.100.dylib */,
+				885631B22566AD410087C67C /* libswresample.3.8.100.dylib */,
+				885631B42566AD410087C67C /* libswscale.5.8.100.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880910CE25668F3E006820CE /* AudioVideoTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880910F525668F40006820CE /* Build configuration list for PBXNativeTarget "AudioVideoTrip" */;
+			buildPhases = (
+				880910CB25668F3E006820CE /* Sources */,
+				880910CC25668F3E006820CE /* Frameworks */,
+				880910CD25668F3E006820CE /* Resources */,
+				885631C12566AD410087C67C /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioVideoTrip;
+			productName = AudioVideoTrip;
+			productReference = 880910CF25668F3E006820CE /* AudioVideoTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880910E025668F40006820CE /* AudioVideoTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880910F825668F40006820CE /* Build configuration list for PBXNativeTarget "AudioVideoTripTests" */;
+			buildPhases = (
+				880910DD25668F40006820CE /* Sources */,
+				880910DE25668F40006820CE /* Frameworks */,
+				880910DF25668F40006820CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880910E325668F40006820CE /* PBXTargetDependency */,
+			);
+			name = AudioVideoTripTests;
+			productName = AudioVideoTripTests;
+			productReference = 880910E125668F40006820CE /* AudioVideoTripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		880910EB25668F40006820CE /* AudioVideoTripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880910FB25668F40006820CE /* Build configuration list for PBXNativeTarget "AudioVideoTripUITests" */;
+			buildPhases = (
+				880910E825668F40006820CE /* Sources */,
+				880910E925668F40006820CE /* Frameworks */,
+				880910EA25668F40006820CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880910EE25668F40006820CE /* PBXTargetDependency */,
+			);
+			name = AudioVideoTripUITests;
+			productName = AudioVideoTripUITests;
+			productReference = 880910EC25668F40006820CE /* AudioVideoTripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880910C725668F3E006820CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					880910CE25668F3E006820CE = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+					880910E025668F40006820CE = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 880910CE25668F3E006820CE;
+					};
+					880910EB25668F40006820CE = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 880910CE25668F3E006820CE;
+					};
+				};
+			};
+			buildConfigurationList = 880910CA25668F3E006820CE /* Build configuration list for PBXProject "AudioVideoTrip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880910C625668F3E006820CE;
+			productRefGroup = 880910D025668F3E006820CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880910CE25668F3E006820CE /* AudioVideoTrip */,
+				880910E025668F40006820CE /* AudioVideoTripTests */,
+				880910EB25668F40006820CE /* AudioVideoTripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880910CD25668F3E006820CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880910D725668F3F006820CE /* Assets.xcassets in Resources */,
+				880910DA25668F3F006820CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880910DF25668F40006820CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880910EA25668F40006820CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880910CB25668F3E006820CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880910D525668F3E006820CE /* ViewController.swift in Sources */,
+				8809110425669187006820CE /* Test.c in Sources */,
+				88D52D7E2575164B005DAFA0 /* Utility.c in Sources */,
+				880910D325668F3E006820CE /* AppDelegate.swift in Sources */,
+				886A78A1256E86DD00F311B9 /* AudioRecord.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880910DD25668F40006820CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880910E625668F40006820CE /* AudioVideoTripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880910E825668F40006820CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880910F125668F40006820CE /* AudioVideoTripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880910E325668F40006820CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880910CE25668F3E006820CE /* AudioVideoTrip */;
+			targetProxy = 880910E225668F40006820CE /* PBXContainerItemProxy */;
+		};
+		880910EE25668F40006820CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880910CE25668F3E006820CE /* AudioVideoTrip */;
+			targetProxy = 880910ED25668F40006820CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		880910D825668F3F006820CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880910D925668F3F006820CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		880910F325668F40006820CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		880910F425668F40006820CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		880910F625668F40006820CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AudioVideoTrip/AudioVideoTrip.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2QKB72RQTG;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = AudioVideoTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioVideoTrip/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-Wl,-no_compact_unwind";
+				PRODUCT_BUNDLE_IDENTIFIER = Laphaham.AudioVideoTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioVideoTrip/AudioVideoTrip-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AudioVideoTrip/include\"";
+			};
+			name = Debug;
+		};
+		880910F725668F40006820CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AudioVideoTrip/AudioVideoTrip.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2QKB72RQTG;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = AudioVideoTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioVideoTrip/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-Wl,-no_compact_unwind";
+				PRODUCT_BUNDLE_IDENTIFIER = Laphaham.AudioVideoTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioVideoTrip/AudioVideoTrip-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AudioVideoTrip/include\"";
+			};
+			name = Release;
+		};
+		880910F925668F40006820CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioVideoTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Laphaham.AudioVideoTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioVideoTrip.app/Contents/MacOS/AudioVideoTrip";
+			};
+			name = Debug;
+		};
+		880910FA25668F40006820CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioVideoTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Laphaham.AudioVideoTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioVideoTrip.app/Contents/MacOS/AudioVideoTrip";
+			};
+			name = Release;
+		};
+		880910FC25668F40006820CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioVideoTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Laphaham.AudioVideoTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AudioVideoTrip;
+			};
+			name = Debug;
+		};
+		880910FD25668F40006820CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioVideoTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Laphaham.AudioVideoTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AudioVideoTrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880910CA25668F3E006820CE /* Build configuration list for PBXProject "AudioVideoTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880910F325668F40006820CE /* Debug */,
+				880910F425668F40006820CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880910F525668F40006820CE /* Build configuration list for PBXNativeTarget "AudioVideoTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880910F625668F40006820CE /* Debug */,
+				880910F725668F40006820CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880910F825668F40006820CE /* Build configuration list for PBXNativeTarget "AudioVideoTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880910F925668F40006820CE /* Debug */,
+				880910FA25668F40006820CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880910FB25668F40006820CE /* Build configuration list for PBXNativeTarget "AudioVideoTripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880910FC25668F40006820CE /* Debug */,
+				880910FD25668F40006820CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 880910C725668F3E006820CE /* Project object */;
+}
